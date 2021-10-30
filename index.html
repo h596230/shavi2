@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shavi</title>
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="assets/style/medlemskap.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;400&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <!-- <header class="header flex-row">
+    <div class="meny-row">
+      <div class="velg-wrapper">
+        <select class="velg" name="velg">
+          <option value="1">Bergen</option>
+          <option value="2">Oslo</option>
+          <option value="3">Førde</option>
+        </select>
+        <span class="velg-pil"></span>
+      </div>
+    </div>
+    <div class="meny-row" style="flex-grow: 2;">
+      <a href="index.html"><img class="icon-stor" src="assets/img/Shavi.svg" alt="meny" ;></a>
+    </div>
+    <div class="meny-row" id="burger"><img src="assets/img/hamburgir.svg" alt="meny" height="40vw" ; color="white" ;>
+    </div>
+  </header> -->
+  <header class="header">
+    <div class="container flex-align">
+      <div class="header-col">
+        <div>
+          <div class="velg-wrapper">
+            <select class="velg" name="velg">
+              <option value="1">Bergen</option>
+              <option value="2">Oslo</option>
+              <option value="3">Førde</option>
+            </select>
+            <span class="velg-pil"></span>
+          </div>
+        </div>
+      </div>
+      <div class="header-col header-logo">
+        <a href="index.html">
+          <span class="logo-span">SHAVI</span>
+        </a>
+      </div>
+      <div class="header-col">
+        <div id="burger">
+          <i class='bx bx-menu-alt-right'></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- NAVIGASJON -->
+  <!-- <nav class="nav flex-row text-stor" style="background-color: var(--sec-farge);">
+    <a class="nav-link meny-row" href="#omoss">Om oss</a>
+    <a class="nav-link meny-row" href="#medlemskap">Medlemsskap</a>
+    <a class="nav-link meny-row" href="#">Kjøretøy</a>
+    <a class="nav-link meny-row" href="#lokasjon">Lokasjon</a>
+  </nav> -->
+  <nav class="nav">
+    <ul class="nav-list container flex-sa">
+      <li><a href="#omoss" class="nav-link">Om oss</a></li>
+      <li><a href="#medlemskap" class="nav-link">Medlemsskap</a></li>
+      <li><a href="#" class="nav-link">Kjøretøy</a></li>
+      <li><a href="#lokasjon" class="nav-link">Lokasjon</a></li>
+    </ul>
+  </nav>
+  <div class="cover"></div>
+  <div class="meny">
+    <ul class="meny-text text-mid" style="display: none;">
+      <li><a href="index.html" class="flex-name"><img src="assets/img/ShaviWhite.svg" alt="meny" ;></a></li>
+      <li>
+        <ul>
+          <h1>Sted:</h1>
+          <li>Bergen</li>
+          <li>Oslo</li>
+          <li>Førde</li>
+        </ul>
+
+      <li>
+        <ul>
+          <h1>Kjøretøy:</h1>
+          <li>Tesla</li>
+          <li>Hydrolift</li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <h1>Medlemskap:</h1>
+          <li>Bil</li>
+          <li>Båt</li>
+          <li>Max</li>
+        </ul>
+      </li>
+      </li>
+    </ul>
+  </div>
+
+  <main class="mainpage">
+    <!-- hero -->
+    <section id="omoss" class="section section-hero container">
+      <!-- text -->
+      <div class="section-col">
+        <div class="hero-text">
+          <div>
+            <h1 class="hero-title marginb-1">Lorem ipsum dolozas sitas.</h1>
+            <p class="section-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur, placeat
+              sit fugit adipisci
+              dolor ducimus autem laboriosam delectus accusantium!</p>
+            <a class="button button-hero" href="#"><span>Bli med!</span></a>
+            <span class="hero-her">
+              Her finner du oss i <span class="hero-stedSpan" id="stedSpan">sted</span>!
+              <img class="hero-pil" src="assets/img/arrow_30.svg" alt="pil">
+            </span>
+          </div>
+
+        </div>
+      </div>
+      <!-- lokalisasjon -->
+      <div class="section-col">
+        <div id="lokasjon" class="kort">
+          <div class="kort-content">
+            <iframe class="iframe" width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJd312ZkkNOUYRCAretD6gQp4&key=AIzaSyDe7EehqYkudsCG5d4Q177xBzdHyhhD9sg"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Kjøretøy -->
+    <section class="secion-kt">
+      <div class="container">
+        <h2 class="section-titel">Kjøretøy</h2>
+        <div class="flex-align gap">
+          <div class="section-col">
+            <h4 class="kt-titel ">Bil</h4>
+            <p class="section-p">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta blanditiis animi, ab excepturi ut quo.
+              Assumenda culpa, optio distinctio aperiam sint, dignissimos molestiae voluptate consectetur eligendi
+              voluptatem dolores molestias! Iure.
+            </p>
+            <img class="kt-img" src="" alt="Tesla">
+          </div>
+          <div class="section-col">
+            <h4 class="kt-titel">Båt</h4>
+            <p class="section-p">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta blanditiis animi, ab excepturi ut quo.
+              Assumenda culpa, optio distinctio aperiam sint, dignissimos molestiae voluptate consectetur eligendi
+              voluptatem dolores molestias! Iure.
+            </p>
+            <img class="kt-img" src="" alt="Båt">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-hvordan">
+      <div class="container">
+        <h2 class="hvordan-titel section-titel">Hvordan virker det ?</h2>
+        <div class="flex-sa">
+          <div class="card">
+            <i class='bx bx-file-blank'></i>
+            <h3 class="card-titel">Register</h3>
+          </div>
+          <i class='hvordan-pil bx bxs-right-arrow'></i>
+          <div class="card">
+            <i class='bx bxs-calendar'></i>
+            <h3 class="card-titel">Book kjøretøy</h3>
+          </div>
+          <i class='hvordan-pil bx bxs-right-arrow'></i>
+          <div class="card">
+            <i class='bx bx-smile'></i>
+            <h3 class="card-titel">Kos deg</h3>
+          </div>
+          <i class='hvordan-pil bx bxs-right-arrow'></i>
+          <div class="card">
+            <i class='bx bx-world'></i>
+            <h3 class="card-titel">Redd verden</h3>
+          </div>
+        </div>
+
+      </div>
+      <a href="#medlemskap" class="button hvordan-btn">Se tilbud</a>
+    </section>
+    <!-- Med lemskap Kort -->
+    <section class="medlemskap__section" id="medlemskap" class="kort">
+      <section class="container">
+        <h2 class="section-titel">Medlemskap</h2>
+        <div class="flex-sa">
+          <div class="medlemskap__card">
+            <span class="medlemskap__nr">1</span>
+            <div class="medlemskap__bilde-div">
+              <img src="assets/img/tesla.jpg" alt="" class="medlemskap__bilde">
+            </div>
+            <div class="medlemskap__card-context">
+              <h2 class="medlemskap__titel">Bildeling</h2>
+              <p class="medlemskap__beskrivelse">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.
+                Pariatur,
+                ullam?</p>
+              <span class="medlemskap__pris">1999,-</span>
+              <button class="medlemskap__btn"><span>Mer info</span></button>
+            </div>
+            <div class="medlemskap__info">
+              <div class="medlemskap__close">x</div>
+              <ul class="medlemskap__liste">
+                <li class="medlemskap__item">Lorem, ipsum.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit amet.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit amet consectetur.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="medlemskap__card">
+            <span class="medlemskap__nr">2</span>
+            <div class="medlemskap__bilde-div">
+              <img src="assets/img/tesla.jpg" alt="" class="medlemskap__bilde">
+            </div>
+            <div class="medlemskap__card-context">
+              <h2 class="medlemskap__titel">Båtdeleringe</h2>
+              <p class="medlemskap__beskrivelse">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
+                ullam?</p>
+              <span class="medlemskap__pris">1999,-</span>
+              <button class="medlemskap__btn"><span>Mer info</span></button>
+            </div>
+            <div class="medlemskap__info">
+              <div class="medlemskap__close">x</div>
+              <ul class="medlemskap__liste">
+                <li class="medlemskap__item">Lorem, ipsum.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit amet.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit amet consectetur.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="medlemskap__card">
+            <span class="medlemskap__nr">3</span>
+            <div class="medlemskap__bilde-div">
+              <img src="assets/img/tesla.jpg" alt="" class="medlemskap__bilde">
+            </div>
+            <div class="medlemskap__card-context">
+              <h2 class="medlemskap__titel">Begge</h2>
+              <p class="medlemskap__beskrivelse">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
+                ullam?</p>
+              <span class="medlemskap__pris">1999,-</span>
+              <button class="medlemskap__btn"><span>Mer info</span></button>
+            </div>
+            <div class="medlemskap__info">
+              <div class="medlemskap__close">x</div>
+              <ul class="medlemskap__liste">
+                <li class="medlemskap__item">Lorem, ipsum.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit amet.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit amet consectetur.</li>
+                <li class="medlemskap__item">Lorem ipsum dolor sit.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="section-om">
+        <div class="container">
+          <h2 class="section-titel">Om oss</h2>
+          <div class="flex-align">
+            <div class="section-p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores delectus, sint repellat quisquam at
+              beatae architecto similique dolorem consectetur magnam neque praesentium aspernatur error nesciunt
+              aperiam, repellendus nobis? Blanditiis, sapiente!
+            </div>
+            <div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+  </main>
+  <footer class="footer">Shavi&copy;</footer>
+  <script src="assets/js/burgir.js"></script>
+  <script src="assets/js/lokasjon.js"></script>
+  <script src="assets/js/showInfo.js"></script>
+  <script src="assets/js/fixedNav.js"></script>
+</body>
+
+</html>
